@@ -1,7 +1,3 @@
-Voici le fichier **README.md** pour votre repository GitHub. 🎯  
-
----
-
 ### **📌 Rule-Based Classifier with WEKA**  
 
 **Un classificateur intelligent basé sur les règles d’association 🔍**  
