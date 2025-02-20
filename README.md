@@ -24,9 +24,8 @@
 ## **📂 Structure du projet**  
 ```
 📦 Rule-Based-Classifier-WEKA
-├── 📄 classifier.py  # Code principal du classificateur
-├── 📄 requirements.txt  # Dépendances
-├── 📄 dataset.csv  # Jeu de données (transactions supermarché)
+├── 📄 Custom Classifier.py  # Code principal du classificateur
+├── 📄 csupESp.csv  # Jeu de données (transactions supermarché)
 ├── 📄 README.md  # Documentation du projet
 ```
 
