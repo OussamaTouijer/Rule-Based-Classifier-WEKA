@@ -39,14 +39,9 @@ git clone https://github.com/ton_username/Rule-Based-Classifier-WEKA.git
 cd Rule-Based-Classifier-WEKA
 ```
 
-### **2️⃣ Installer les dépendances**  
+### **2️⃣ Lancer le classificateur**  
 ```bash
-pip install -r requirements.txt
-```
-
-### **3️⃣ Lancer le classificateur**  
-```bash
-python classifier.py
+python Custom Classifier.py
 ```
 
 Vous pouvez choisir entre :  
