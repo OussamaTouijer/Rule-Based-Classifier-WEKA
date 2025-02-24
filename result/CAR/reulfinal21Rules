@@ -1,0 +1,105 @@
+=== Run information ===
+
+Scheme:       weka.associations.Apriori -N 30 -T 0 -C 0.9 -D 0.05 -U 1.0 -M 0.1 -S -1.0 -A -c -1
+Relation:     csupESp
+Instances:    3358
+Attributes:   49
+              bread and cake
+              tea
+              biscuits
+              canned fish-meat
+              canned fruit
+              canned vegetables
+              breakfast food
+              coffee
+              confectionary
+              frozen foods
+              spices
+              jams-spreads
+              pet foods
+              laundry needs
+              tissues-paper prd
+              soft drinks
+              health food other
+              beverages hot
+              deodorants-soap
+              medicines
+              haircare
+              dental needs
+              lotions-creams
+              cough-cold-pain
+              meat misc
+              cheese
+              chickens
+              milk-cream
+              cold-meats
+              margarine
+              salads
+              dairy foods
+              fruit drinks
+              beef
+              lamb
+              pork
+              poultry
+              Cleaning Supplies
+              Household Goods
+              fruit
+              vegetables
+              stationary
+              prepared meals
+              condiments
+              cooking oils
+              Dairy
+              Seafood
+              Meat
+              total
+=== Associator model (full training set) ===
+
+
+Apriori
+=======
+
+Minimum support: 0.1 (336 instances)
+Minimum metric <confidence>: 0.9
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 51
+
+Size of set of large itemsets L(2): 299
+
+Size of set of large itemsets L(3): 774
+
+Size of set of large itemsets L(4): 911
+
+Size of set of large itemsets L(5): 467
+
+Size of set of large itemsets L(6): 84
+
+Size of set of large itemsets L(7): 3
+
+Best rules found:
+
+ 1. bread and cake=t frozen foods=t pet foods=t tissues-paper prd=t cheese=t 371 ==> total=high 339    conf:(0.91)
+ 2. bread and cake=t biscuits=t frozen foods=t tissues-paper prd=t cheese=t margarine=t 378 ==> total=high 345    conf:(0.91)
+ 3. bread and cake=t biscuits=t frozen foods=t pet foods=t tissues-paper prd=t fruit=t 384 ==> total=high 350    conf:(0.91)
+ 4. bread and cake=t frozen foods=t pet foods=t tissues-paper prd=t margarine=t vegetables=t 370 ==> total=high 337    conf:(0.91)
+ 5. biscuits=t frozen foods=t pet foods=t tissues-paper prd=t margarine=t 399 ==> total=high 363    conf:(0.91)
+ 6. biscuits=t frozen foods=t laundry needs=t tissues-paper prd=t margarine=t 387 ==> total=high 351    conf:(0.91)
+ 7. bread and cake=t biscuits=t frozen foods=t pet foods=t margarine=t fruit=t 373 ==> total=high 338    conf:(0.91)
+ 8. biscuits=t frozen foods=t tissues-paper prd=t cheese=t fruit=t vegetables=t 373 ==> total=high 338    conf:(0.91)
+ 9. biscuits=t frozen foods=t laundry needs=t tissues-paper prd=t vegetables=t 394 ==> total=high 357    conf:(0.91)
+10. biscuits=t breakfast food=t tissues-paper prd=t margarine=t vegetables=t 381 ==> total=high 345    conf:(0.91)
+11. frozen foods=t pet foods=t laundry needs=t tissues-paper prd=t 390 ==> total=high 353    conf:(0.91)
+12. biscuits=t breakfast food=t frozen foods=t pet foods=t vegetables=t 379 ==> total=high 343    conf:(0.91)
+13. frozen foods=t laundry needs=t tissues-paper prd=t margarine=t vegetables=t 377 ==> total=high 341    conf:(0.9)
+14. pet foods=t laundry needs=t tissues-paper prd=t margarine=t 376 ==> total=high 340    conf:(0.9)
+15. bread and cake=t biscuits=t frozen foods=t tissues-paper prd=t cheese=t fruit=t 394 ==> total=high 356    conf:(0.9)
+16. bread and cake=t biscuits=t frozen foods=t tissues-paper prd=t cheese=t vegetables=t 394 ==> total=high 356    conf:(0.9)
+17. biscuits=t frozen foods=t pet foods=t tissues-paper prd=t fruit=t vegetables=t 373 ==> total=high 337    conf:(0.9)
+18. frozen foods=t laundry needs=t tissues-paper prd=t cheese=t 383 ==> total=high 346    conf:(0.9)
+19. bread and cake=t biscuits=t frozen foods=t pet foods=t tissues-paper prd=t vegetables=t 401 ==> total=high 362    conf:(0.9)
+20. bread and cake=t biscuits=t frozen foods=t tissues-paper prd=t dairy foods=t 398 ==> total=high 359    conf:(0.9)
+21. bread and cake=t pet foods=t tissues-paper prd=t cheese=t vegetables=t 375 ==> total=high 338    conf:(0.9)
+
